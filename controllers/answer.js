@@ -11,7 +11,7 @@ export const que1 = async(req, res)=>{
         
         user.end_time = Date.now();
 
-        if (answer==="Elon Musk"){
+        if (answer==="5"){
             if (user.que1 === false){
                 user.score += 1;
                 user.que1 = true;
@@ -63,7 +63,7 @@ export const que3 = async(req, res)=>{
         const user = await User.findById(req.user._id);
         user.end_time = Date.now();
         const {answer} = req.body;
-        if (answer==="5"){
+        if (answer==="flagCES{W0!_U_g0t_7he_fl4g}"){
             if (user.que3 === false){
                 user.score += 1;
                 user.que3 = true;
@@ -89,7 +89,7 @@ export const que4 = async(req, res)=>{
         const user = await User.findById(req.user._id);
         user.end_time = Date.now();
         const {answer} = req.body;
-        if (answer==="5"){
+        if (answer==="CORRETPARITY"){
             if (user.que4 === false){
                 user.score += 1;
                 user.que4 = true;
@@ -115,7 +115,7 @@ export const que5 = async(req, res)=>{
         const user = await User.findById(req.user._id);
         user.end_time = Date.now();
         const {answer} = req.body;
-        if (answer==="5"){
+        if (answer==="Elon Musk"){
             if (user.que5 === false){
                 user.score += 1;
                 user.que5 = true;
@@ -141,7 +141,7 @@ export const que6 = async(req, res)=>{
         const user = await User.findById(req.user._id);
         user.end_time = Date.now();
         const {answer} = req.body;
-        if (answer==="5"){
+        if (answer==="ThIS_I$~eyE"){
             if (user.que6 === false){
                 user.score += 1;
                 user.que6 = true;
