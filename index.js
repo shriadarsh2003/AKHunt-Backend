@@ -21,7 +21,7 @@ mongoose
 // middleware
 app.use(cors(
     {
-        origin: ["http://localhost:3000", "https://akhunt1.onrender.com"]
+        origin: ["http://localhost:3000", "https://akhunt.onrender.com"]
     }
 ));
 app.use(morgan("dev"));
